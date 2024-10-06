@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Time Stamp Bookmarker",
+  "version": "1.0",
+  "description": "Bookmark specific timestamps in YouTube videos and generate shareable links.",
+  "permissions": ["activeTab", "clipboardWrite", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
