@@ -1,5 +1,5 @@
-git clone it 
-open the extension section of your browser
-turn on the developer mode
-select the load file option and select this folder
-pin it and use it 
+- **Git clone it**
+- **Open the extension section of your browser**
+- **Turn on the developer mode**
+- **Select the load file option and select this folder**
+- **Pin it and use it**
